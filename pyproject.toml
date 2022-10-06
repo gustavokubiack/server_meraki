@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "meraki_django"
+version = "0.1.0"
+description = "Backend do Meraki Voluntariado em Django com DRF."
+authors = ["gustavokubiack <guukubiack@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
